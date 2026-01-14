@@ -1,18 +1,30 @@
-# Enunciado
+# Proyecto Mercado Libre - Trabajo Práctico
+Este proyecto es una implementación inspirada en la plataforma Mercado Libre, desarrollado como parte de un trabajo práctico para la materia Interfaces de Usuario de la carrera Licenciatura en Informática en la Universidad Nacional de Quilmes.
 
-https://github.com/unq-ui/material/tree/master/TPs/2024s2
+# Descripción
+El objetivo principal de este proyecto es aplicar los conceptos aprendidos en la materia, enfocándose en el diseño y desarrollo de una interfaz de usuario funcional, intuitiva y eficiente para la compra y venta de productos en línea. El sistema permite a los usuarios buscar productos, ver sus detalles, agregarlos a favoritos, comprarlos y realizar otras interacciones comunes en plataformas de comercio electrónico.
 
-# Modelo
+# Tecnologias utilizadas
+* Frontend: React.js con CSS para el diseño de la interfaz.
+* Backend: Node.js con Express.js para la gestión de la API.
+* Autenticación: Implementación de JWT para la gestión de sesiones.
+* Otros: Axios para la comunicación con la API, React Router para la navegación dentro de la aplicación.
 
-https://github.com/unq-ui/mercadolibre-model
+# Instalación
 
-## Tener en cuenta
+1. Clona el repositorio a tu máquina local:
 
-Los siguientes archivos y/o carpetas no se suben al repo
+    ```bash
+    git clone https://github.com/Fabricio-Camilla/Mercado-Libre-Proyect
+    ```
+2. Instala las dependencias y ejecutar:
 
-* Los archivos .iml 
-* /target
-* /node_modules
-* .log
+    ```bash
+    npm install
+    npm run dev
+    ```
+3. Acceder en tu navegador web `http://localhost:5173`
+   < En caso de tener alguna advertencia sobre las dependencias utilizar el comando `npm audit` o `npm audit --force` para instalar las versiones correspondientes.
 
-Dentro de las carpetas que nosotros subimos tienen que estar su proyecto directamente, eso significa que por ejemplo dentro de la carpeta de arena espero ver el `pom.xml` y la carpeta `src`
+* Este proyecto es de uso educativo y no tiene fines comerciales. Todos los derechos pertenecen a los autores y la Universidad Nacional de Quilmes.
+
