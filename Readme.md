@@ -24,7 +24,7 @@ El objetivo principal de este proyecto es aplicar los conceptos aprendidos en la
     npm run dev
     ```
 3. Acceder en tu navegador web `http://localhost:5173`
-   < En caso de tener alguna advertencia sobre las dependencias utilizar el comando `npm audit` o `npm audit --force` para instalar las versiones correspondientes.
+< En caso de tener alguna advertencia sobre las dependencias utilizar el comando `npm audit` o `npm audit --force` para instalar las versiones correspondientes.
 
 * Este proyecto es de uso educativo y no tiene fines comerciales. Todos los derechos pertenecen a los autores y la Universidad Nacional de Quilmes.
 
